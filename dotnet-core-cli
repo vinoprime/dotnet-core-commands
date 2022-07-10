@@ -1,0 +1,12 @@
+# to run app in watch mode
+$ dotnet watch run
+
+# to build app
+$ dotnet run build
+
+# to run add migrations
+$ dotnet ef migrations add <YourMigrationsName>
+eg :  $ dotnet ef migrations add AddeduserModel
+
+# to update model in database
+$ dotnet ef database update
